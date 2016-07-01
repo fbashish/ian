@@ -1,0 +1,60 @@
+/*
+  Infant Aquatics components:
+  Import the building blocks you need for your project.
+  Reducing the number of imported components will optimize page speed.
+  ---------------------------------------------------------------------
+  The Foundation framework is built by Zurb
+  Licensed under MIT Open Source
+*/
+
+//  Settings
+@import "global/settings"; // Foundation settings file.
+
+
+
+// Third-party libraries
+@import 'font-awesome';
+@import 'motion-ui';
+
+
+
+
+// Motion UI
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+
+// Custom
+@import "custom/slick-theme";
+@import "custom/slick";
+@import "custom/custom";
+@import "custom/sliders";
+@import "custom/fancybox";
+
+// Load Third Party Libraries
+@import "vendor/bourbon/bourbon";
+
+@import "theme/mixins/breakpoints";
+//-------------------------------------------
+
+// THEME COMPONENTS
+@import "theme/variables";
+
+@import "theme/typography";
+
+@import "theme/default";
+
+@import "theme/blog";
+
+@import "theme/fixes";
+
+@import "theme/modular/all";
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+{% extends 'partials/base.html.twig' %}
+
+{% set show_onpage_menu = header.onpage_menu == true or header.onpage_menu is null %}
+{% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
+
+
+
+
+
+{% block content %}
+
+	<div class="modular-row showcase header">
+	    <div class="container">
+	        <h1>{{ page.title }}</h1>
+
+	        {% for button in page.header.buttons %}
+	            <a class="btn{% if button.primary %} btn-default{% endif %}" href="{{ base_url_relative }}{{ button.url }}">{{ button.text }}</a>
+	        {% endfor %}
+	    </div>
+	</div>
+
+    {{ page.content }}
+    {% for module in page.collection() %}
+        <div class="modular-anchor" id="{{ _self.pageLinkName(module.menu) }}"></div>
+        {{ module.content }}
+    {% endfor %}
+{% endblock %}
+
+
+
+{% block header_navigation %}
+
+        {{  parent() }}
+{% endblock %}
+
+
+
+{% block javascripts %}
+
+    {{ parent() }}
+{% endblock %}

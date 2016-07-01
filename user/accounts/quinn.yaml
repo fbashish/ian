@@ -1,0 +1,11 @@
+email: quinn@freestonedesign.com
+fullname: 'Quinn Gurnea'
+title: 'The Boss'
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$U3pJIrnzhHlUnkjJDPDoguoKhT1AkmFpA6Ee4d3ZaZ6f0HXYHnAya

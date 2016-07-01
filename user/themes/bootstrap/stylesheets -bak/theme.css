@@ -1,0 +1,388 @@
+/* Typography */
+/* Tables */
+/* line 4, ../sass/theme/_typography.scss */
+table {
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  margin: 30px 0;
+}
+
+/* line 10, ../sass/theme/_typography.scss */
+th {
+  font-weight: bold;
+  background: whitesmoke;
+  padding: 5px;
+}
+
+/* line 16, ../sass/theme/_typography.scss */
+td {
+  padding: 5px;
+  border: 1px solid #f0f0f0;
+}
+
+/* Notice Styles */
+/* line 22, ../sass/theme/_typography.scss */
+blockquote {
+  padding: 0 0 0 20px !important;
+  font-size: 16px;
+  color: #666;
+}
+/* line 27, ../sass/theme/_typography.scss */
+blockquote > blockquote > blockquote {
+  margin: 0;
+}
+/* line 30, ../sass/theme/_typography.scss */
+blockquote > blockquote > blockquote p {
+  padding: 15px;
+  display: block;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  border: 1px solid #f0f0f0;
+}
+/* line 38, ../sass/theme/_typography.scss */
+blockquote > blockquote > blockquote > p {
+  /* Yellow */
+  margin-left: -75px;
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+/* line 46, ../sass/theme/_typography.scss */
+blockquote > blockquote > blockquote blockquote > p {
+  /* Red */
+  margin-left: -100px;
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+/* line 54, ../sass/theme/_typography.scss */
+blockquote > blockquote > blockquote blockquote > blockquote > p {
+  /* Blue */
+  margin-left: -125px;
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+/* line 62, ../sass/theme/_typography.scss */
+blockquote > blockquote > blockquote blockquote > blockquote > blockquote > p {
+  /* Blue */
+  margin-left: -150px;
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+/* images responsive */
+/* line 2, ../sass/theme/_default.scss */
+img {
+  max-width: 100%;
+}
+
+/* Constrain the width */
+/* line 7, ../sass/theme/_default.scss */
+.container {
+  width: auto;
+  max-width: 960px;
+  padding: 0 15px;
+}
+
+/* Center the footer text */
+/* line 14, ../sass/theme/_default.scss */
+.container .text-muted {
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Make branding more obvious */
+/* line 20, ../sass/theme/_default.scss */
+.navbar .navbar-brand {
+  color: #333;
+  font-size: 26px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/* line 27, ../sass/theme/_default.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 32, ../sass/theme/_default.scss */
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+/* line 37, ../sass/theme/_default.scss */
+.header {
+  background-color: #563f79;
+  background-image: -webkit-linear-gradient(#563f79, #6e519b);
+  background-image: linear-gradient(#563f79, #6e519b);
+  margin-top: -20px;
+  margin-bottom: 30px;
+  padding-top: 65px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f5f2f8;
+}
+/* line 47, ../sass/theme/_default.scss */
+.header h1 {
+  font-size: 60px;
+  color: #f0f0f0;
+  margin-top: 0;
+}
+@media only all and (min-width: 48rem) and (max-width: 59.938rem) {
+  /* line 47, ../sass/theme/_default.scss */
+  .header h1 {
+    font-size: 40px;
+  }
+}
+@media only all and (max-width: 47.938rem) {
+  /* line 47, ../sass/theme/_default.scss */
+  .header h1 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 2.5rem;
+  }
+}
+/* line 61, ../sass/theme/_default.scss */
+.header h2 {
+  margin-top: 0;
+  font-weight: normal;
+}
+/* line 66, ../sass/theme/_default.scss */
+.header .btn {
+  font-size: 22px;
+  padding: 10px 30px;
+  margin-top: 30px;
+  border-radius: 3px;
+  box-shadow: none;
+  border: 0;
+}
+
+/* line 76, ../sass/theme/_default.scss */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+/* line 1, ../sass/theme/_blog.scss */
+ol.breadcrumb {
+  padding-left: 0;
+  background: transparent;
+}
+
+/* line 6, ../sass/theme/_blog.scss */
+.list-item {
+  margin: 30px 0 50px;
+}
+
+/* line 10, ../sass/theme/_blog.scss */
+.blog-header-image {
+  margin: 15px 0;
+}
+
+/* line 14, ../sass/theme/_blog.scss */
+.sidebar-content {
+  margin-bottom: 50px;
+}
+
+/* line 18, ../sass/theme/_blog.scss */
+.pagination li {
+  display: inline !important;
+  border: 0 !important;
+}
+
+/* line 24, ../sass/theme/_blog.scss */
+.related-pages {
+  padding: 0;
+  list-style: none;
+}
+/* line 27, ../sass/theme/_blog.scss */
+.related-pages li {
+  border-bottom: 1px solid #f0f0f0;
+  line-height: 34px;
+}
+/* line 30, ../sass/theme/_blog.scss */
+.related-pages li:last-child {
+  border-bottom: 0;
+}
+/* line 33, ../sass/theme/_blog.scss */
+.related-pages li a {
+  display: block;
+}
+/* line 38, ../sass/theme/_blog.scss */
+.related-pages .score {
+  display: block;
+  float: right;
+  color: #999;
+  font-size: 85%;
+}
+
+/* line 1, ../sass/theme/_fixes.scss */
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 5, ../sass/theme/_fixes.scss */
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+/* line 3, ../sass/theme/modular/_features.scss */
+.modular .features {
+  padding: 50px 0;
+  text-align: center;
+}
+/* line 15, ../sass/vendor/bourbon/addons/_clearfix.scss */
+.modular .features:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 8, ../sass/theme/modular/_features.scss */
+.modular .features h2 {
+  margin: 0;
+  line-height: 100%;
+}
+/* line 13, ../sass/theme/modular/_features.scss */
+.modular .features h2 + h3 {
+  margin-top: 0;
+  font-weight: normal;
+}
+/* line 18, ../sass/theme/modular/_features.scss */
+.modular .features p {
+  margin: 10px 0;
+  font-size: 17px;
+}
+@media only all and (max-width: 47.938rem) {
+  /* line 18, ../sass/theme/modular/_features.scss */
+  .modular .features p {
+    font-size: 14px;
+  }
+}
+/* line 26, ../sass/theme/modular/_features.scss */
+.modular .features .feature-items {
+  margin-top: 30px;
+}
+/* line 30, ../sass/theme/modular/_features.scss */
+.modular .features .feature {
+  display: block;
+  float: left;
+  width: 25%;
+  vertical-align: top;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+@media only all and (max-width: 47.938rem) {
+  /* line 30, ../sass/theme/modular/_features.scss */
+  .modular .features .feature {
+    width: 100%;
+  }
+}
+/* line 41, ../sass/theme/modular/_features.scss */
+.modular .features .feature i.fa {
+  font-size: 40px;
+  color: #62488A;
+}
+/* line 46, ../sass/theme/modular/_features.scss */
+.modular .features .feature h4 {
+  font-size: 16px;
+  font-weight: normal;
+}
+/* line 52, ../sass/theme/modular/_features.scss */
+.modular .features .feature p {
+  display: inline-block;
+  font-size: 14px;
+  margin: 5px 0 10px;
+}
+/* line 59, ../sass/theme/modular/_features.scss */
+.modular .features.big {
+  text-align: center;
+}
+/* line 63, ../sass/theme/modular/_features.scss */
+.modular .features.big .feature {
+  width: 50%;
+  margin: 30px 0;
+}
+/* line 68, ../sass/theme/modular/_features.scss */
+.modular .features.big i.fa {
+  font-size: 50px;
+  float: left;
+}
+/* line 73, ../sass/theme/modular/_features.scss */
+.modular .features.big .feature-content {
+  padding-right: 15px;
+}
+/* line 76, ../sass/theme/modular/_features.scss */
+.modular .features.big .feature-content.push {
+  margin-left: 90px;
+}
+/* line 80, ../sass/theme/modular/_features.scss */
+.modular .features.big .feature-content h4 {
+  font-size: 24px;
+  text-align: left;
+  margin: 0;
+}
+/* line 86, ../sass/theme/modular/_features.scss */
+.modular .features.big .feature-content p {
+  padding: 0;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* line 2, ../sass/theme/modular/_text.scss */
+.callout {
+  background: #f0f0f0;
+  color: #666666;
+  padding: 15px 15px;
+}
+/* line 7, ../sass/theme/modular/_text.scss */
+.callout .align-left {
+  float: left;
+  margin-right: 15px;
+}
+/* line 12, ../sass/theme/modular/_text.scss */
+.callout .align-right {
+  float: right;
+  margin-left: 15px;
+}
+/* line 16, ../sass/theme/modular/_text.scss */
+.callout img {
+  border-radius: 3px;
+}
+
+/* line 6, ../sass/theme/modular/_all.scss */
+.modular .modular-row:last-child {
+  margin-bottom: 2rem;
+}
+/* line 10, ../sass/theme/modular/_all.scss */
+.modular .modular-anchor {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+
+/* line 19, ../sass/theme/modular/_all.scss */
+body.fixed-nav {
+  padding-top: 50px;
+}
