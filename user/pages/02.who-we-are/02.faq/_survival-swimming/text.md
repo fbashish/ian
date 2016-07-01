@@ -4,10 +4,14 @@ styles: center-title
 image_align: right
 ---
 
-Here are a few of the basics like a [link](#basics), **bold**, and *italics*. And here's the markdown code:
+## What is Survival Swimming?
 
-```prettyprint
-[link](#basics), **bold**, and *italics*.
-```
+** The ability of a baby to float and breathe, regardless of the water's depth, for an indefinite period of time. **
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### How would your child react alone in the water?
+The most essential survival swimming skill we will teach your child is to roll from a face-down position in the water to a face-up independent back float. Infants and toddlers cannot raise their heads to take a breath. If your child falls face down into the water, knowing how to roll onto a face-up back float can save a life! If your baby is walking, then he/she can also learn to swim to the pool edge or steps, rolling over to breathe whenever air is needed.
+
+Roll over breathing is a technique that many schools and learn-to-swim teachers don't even attempt because it takes time, skill and patience. But once children learn to roll over to float, relax and breathe whenever air is needed, they can truly swim, stay afloat, conquer fear and experience the joy of swimming.
+
+#### Take Control, Not Chances
+It's not just about being comfortable in the water, it's being able to swim and survive. Empower your child with the skills needed to safely enjoy the water! Discover the Infant Aquatics Difference today!

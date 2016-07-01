@@ -245,10 +245,9 @@ $('.slider-nav').slick({
 
 
 
-    // $(".entry-content").fitVids();
 
 
-    // $(".entry-content").fitVids();
+    // $(".container").fitVids();
 
 
     if ($('.grid').length != 0){

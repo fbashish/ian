@@ -4,27 +4,16 @@ styles: 'sg-color-dark-gray center-title'
 image_align: right
 ---
 
-*Pre* and *Code* styling is included and **PrettyPrint** is an additional option that you can toggle on or off in the theme settings. Turning PrettyPrint off will keep the CSS and JS from loading on your page.
+## How To Enroll
 
-```prettyprint
----
-title: My New Page
----
-# My New Page!
 
-This is the body of **my new page** and I can easily use _Markdown_ syntax here.
-```
+1. Visit your local instructor's web page for pool locations, schedules, fees, as well as email and phone contacts. 
 
-```prettyprint
-<div>
-	<p>Markup with <a href="https://code.google.com/p/google-code-prettify/" target="_blank">prettyprint</a></p>
-</div>
-```
+2. Observe infant swimming lessonsObserve lessons and talk to parents whose children are currently enrolled
 
-To add the style class for [PrettyPrint](https://code.google.com/p/google-code-prettify/), you just need to add `prettyprint` directly after the top code fence:
 
-<pre class="sg-highlight-dark">
-```prettyprint
- &lt;Your Code Here /&gt;
-```
-</pre>
+3. Reserve a timeslot
+
+	- Complete a registration form and pay your registration fee and tuition.
+	- Verify your start date and time, and review your parent information booklet or lesson guidelines.
+	- Have the opportunity for your instructor to address all your questions and concerns in advance of lessons.
