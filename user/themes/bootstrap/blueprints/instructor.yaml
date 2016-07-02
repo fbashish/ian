@@ -1,0 +1,85 @@
+title: Instructor
+'@extends':
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        gallery:
+          type: tab
+          title: Instructor Information
+
+          fields:
+            header.company_name:
+              type: text
+              label: Company Name
+              validate:
+                required: true
+                type: textarea
+
+            header.phone:
+                type: text
+                label: Phone Number
+                validate:
+                  required: true
+                  type: textarea
+
+            header.email:
+                type: email
+                label: Email Address
+                validate:
+                  required: true
+                  type: textarea
+            header.website_url:
+              type: text
+              label: Company website
+              placeholder: Complete URL
+              validate:
+                required: true
+                type: textarea
+            header.area:
+              type: textarea
+              label: 'Serving:'
+              placeholder: What area's are you serving?
+              validate:
+                required: true
+                type: textarea
+            header.pool_location:
+              type: textarea
+              label: Pool Location
+              placeholder: Exactly how you would like it to appear
+              
+            header.logo: 
+              type: pagemediaselect
+              label: Your Logo
+              accept:
+                - image/*
+
+            columns:
+              type: columns
+              fields:
+                column1:
+                  type: column
+                  fields:
+                    header.latitude:
+                      type: text
+                      label: Latitude
+                      placeholder: 
+                  
+                column2:
+                  type: column
+                  fields:
+                    header.longitude:
+                      type: text
+                      label: Longitude
+                      placeholder: 
+
+
+
+
+    

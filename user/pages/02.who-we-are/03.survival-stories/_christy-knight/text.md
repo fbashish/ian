@@ -1,0 +1,19 @@
+---
+title: Christy Knight
+area: 
+to: SwimKids
+styles: center-title
+image_align: right
+---
+
+Liz,
+
+I just wanted to thank you for the marvelous program you run. I have been very impressed with the teaching methods you use, your willingness to work around crazy schedules and most of all with your talented instructors. I especially appreciate the great lessons my girls have had from Lance the last 2 times. The one today probably saved my 2 year old Annie's life.
+
+Annie is a very head strong and stubborn little girl ( I believe your analogy was to a horse that needed to be broken...). I was very impressed last week and again today with how Lance recognized not only her stubbornness but also her ability and strengths and used these traits to benefit her in her lessons. Instead of spending the lesson fighting with her he challenged her and kept her doing new things she had not done before. She was curious and worked harder than she ever has before. Today in the lesson he kept submerging her in the pool from different angles and having her find the edge of the pool. When she got disoriented and frustrated he calmly reassured her and made her continue to work rather than returning to her comfort zone at the pool steps as some of the other instructors have done, at Annie's insistence. I recognized the progress she was making in her lessons today and thanked Lance. I had no idea that she would need these skills just a few hours later.
+
+Our street is currently in the process of getting a new water main installed. The city came last week and connected each of the homes to the new line, and where there were problems left big holes with orange cones around them. Our water meter is in the lower end of our driveway and was left uncovered in a 5 foot deep hole. The crazy storms on Saturday have completely filled the hole with water, to the point that it just looks like a fun big puddle to splash in. Tonight my girls went outside with my husband while he washed the cars in the driveway. While he had the power washer going Annie either fell or jumped in. Thanks to the great lesson and practice she got from Lance today she was able to orient herself in the murky water and find the edge of the hole, holding on and treading water until my husband turned off the power washer and heard her screams. I don't know that the outcome would have been the same a week or two ago.
+
+A truly heartfelt thanks again to you and your wonderful staff, and my deepest gratitude to Lance for his timely lesson today. We appreciate your program and all your hard work.
+
+Sincerely,

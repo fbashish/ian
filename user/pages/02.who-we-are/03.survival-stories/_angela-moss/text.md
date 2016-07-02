@@ -1,0 +1,19 @@
+---
+title: Angela Moss
+to: Infant Aquatics
+area: 
+styles: center-title
+image_align: right
+---
+
+February 7, 2003
+A Letter of Gratitude
+
+Dear Judy,
+
+Through your instruction of Infant Aquatics techniques my son learned a precious skill, the ability to save himself from drowning. At the age of 26 months my son, Aidan, learned to swim-float-swim under the watchful eye of mom and teachers. Recently this valuable skill was put to the ultimate test when no one was watching.
+
+My 2 year-old son, 5 month old daughter, and I went to a nearby water park to swim with friends. My son, Aidan, loved playing with his older friend. I was with them as they left the wading pool and started towards the family spa/ hot tub. I told Aidan to wait while I briefly turned my head to look for a spot to put my daughter down. It was only a few seconds from the time I lost sight of my son until I heard a gurgling scream come from the hot tub. I knew it was Aidan, and I knew from the nature of his cry that he was on his back in a float. We found Aidan face up in a star position, one leg kicking against the current in the middle of the family hot tub. Water was splashing over his face adding the gurgle sound to his cry. The tub was 3-4 feet deep, too deep for Aidan to stand. The sight of him in this float terrified and relieved me at the same time. I was terrified because I knew this position meant he had been totally submerged in the water. I was relieved because he turned to a floating position as he was taught to do in Infant Aquatics lessons. While in this position he was able to breathe and scream for help. I knew from his lessons with you that he could maintain the float for an extended period of time. I quickly but calmly removed my shaken, healthy son from the water. Within five minutes Aidan was asking to play in the wading pool again.
+
+Although a lifeguard, at least 2 other swimmers, and I were only a few feet from Aidan, no one saw him go under the water. It pains me to think what would have happened had Aidan not been able to breathe in air and scream for help. As a mother, I want to keep him from getting in these harmful situations by keeping a close eye on him, but it is very difficult if not impossible to watch him all the time. Judy, I thank you and Infant Aquatics for teaching Aidan to swim-float-swim and, ultimately, for teaching him to survive.
+
