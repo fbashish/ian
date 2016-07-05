@@ -3,14 +3,17 @@ title: Instructor
     type: default
     context: blueprints://pages
 
+
+
 form:
   fields:
+
     tabs:
       type: tabs
       active: 1
 
       fields:
-        gallery:
+        instructors:
           type: tab
           title: Instructor Information
 
@@ -54,11 +57,45 @@ form:
               label: Pool Location
               placeholder: Exactly how you would like it to appear
               
+            header.featured_img: 
+              type: pagemediaselect
+              label: Featured Image
+              accept:
+                - image/*
+
             header.logo: 
               type: pagemediaselect
               label: Your Logo
               accept:
                 - image/*
+
+            # header.facebook:
+            #   type: text
+            #   label: Facebook Link
+            #   validate:
+            #     required: false
+
+            header.sidelinks:
+              name: sidelinks
+              type: list
+              label: Additional Links
+              fields:
+                .text:
+                  type: text
+                  label: Text
+                .url:
+                  type: text
+                  label: URL
+                .primary:
+                  type: toggle
+                  label: Primary
+                  highlight: 1
+                  default: 1
+                  options:
+                      1: 'Yes'
+                      0: 'No'
+                  validate:
+                      type: bool
 
             columns:
               type: columns
@@ -78,8 +115,24 @@ form:
                       type: text
                       label: Longitude
                       placeholder: 
+        seo: 
+          type: tab
+          title: SEO
+
+          fields:
+            header.page_title:
+              type: text
+              label: Page Title
+              validate:
+                required: false
+
+            header.page_description:
+                type: textarea
+                label: Page Description
+                validate:
+                  required: true
+                  type: textarea
 
 
 
-
-    
+      

@@ -1,6 +1,7 @@
 ---
-title: Documented Survival Stories
+title: 'Documented Survival Stories'
 body_classes: modular
+menu: 'Survival Stories'
 content:
     order:
         dir: asc

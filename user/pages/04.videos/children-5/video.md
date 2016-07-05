@@ -1,13 +1,18 @@
 ---
-title: 6 Months - 5 Years
-author: Judy Heumann
-description: Infant Aquatics℠ Introduction
+title: '6 Months - 5 Years'
+video_url: 'https://youtu.be/cuBDZjUCFgI'
 taxonomy:
-    category: videos
-    tag: [children, infants, toddlers]
+    tag:
+        - children
+        - infants
+        - toddlers
+    category:
+        - videos
+author: 'Judy Heumann'
+description: 'Infant Aquatics℠ Introduction'
 ---
 
-https://youtu.be/cuBDZjUCFgI
+
 
 ===
 

@@ -14,17 +14,18 @@
 	{% block content %}
         <div class="container">
 
+
 		<div class="row">
                 <div class="col-sm-8 blog-main">
 					{% if config.plugins.breadcrumbs.enabled %}
 						{% include 'partials/breadcrumbs.html.twig' %}
 					{% endif %}
 
-    			    {% include 'partials/blog_item.html.twig' with {'blog':page.parent, 'truncate':false, 'big_header':true} %}
+    			    {% include 'partials/instructor_item.html.twig' with {'instructors':page.parent, 'truncate':false, 'big_header':true} %}
     			</div>
 
                 <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-    				{% include 'partials/sidebar.html.twig' with {'blog':page.parent}%}
+    				{% include 'partials/instructor_sidebar.html.twig' with {'instructors':page.parent}%}
     			</div>
     		</div>
         </div>

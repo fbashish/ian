@@ -1,13 +1,16 @@
 ---
-title: Toddlers 12-24 Months
-author: Judy Heumann
-description: Infant Aquatics℠ 15 months
+title: 'Toddlers 12-24 Months'
+video_url: 'https://youtu.be/pMVYAXv72gE'
 taxonomy:
-    category: videos
-    tag: [toddlers]
+    tag:
+        - toddlers
+    category:
+        - videos
+author: 'Judy Heumann'
+description: 'Infant Aquatics℠ 15 months'
 ---
 
-https://youtu.be/pMVYAXv72gE
+
 
 ===
 

@@ -1,0 +1,30 @@
+title: Video
+'@extends':
+    type: default
+    context: blueprints://pages
+
+
+
+form:
+  fields:
+
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        instructors:
+          type: tab
+          title: Video
+
+          fields:
+            header.video_url:
+              type: text
+              label: URL of this videos
+              placeholder: i.e. https://www.youtube.com/watch?v=5Tat5gU2kkw
+              validate:
+                required: true
+                type: link
+            
+
+      

@@ -1,13 +1,14 @@
 ---
-title: Toddlers 12-24 Months
-author: Judy Heumann
-description: Toddler Swim Float Swim
+title: 'Toddlers 12-24 Months'
+video_url: 'https://youtu.be/SKJPwoTvh6s'
 taxonomy:
-    category: videos
-    tag: [toddlers]
+    tag:
+        - toddlers
+    category:
+        - videos
+author: 'Judy Heumann'
+description: 'Toddler Swim Float Swim'
 ---
-
-https://youtu.be/SKJPwoTvh6s
 
 ===
 

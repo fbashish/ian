@@ -1,13 +1,16 @@
 ---
-title: Toddlers 12-24 Months
-author: Judy Heumann
-description: Toddler Swimming Classes 12-24 months
+title: 'Toddlers 12-24 Months'
+video_url: 'https://youtu.be/lcDrQYAF54Y'
 taxonomy:
-    category: videos
-    tag: [toddlers]
+    tag:
+        - toddlers
+    category:
+        - videos
+author: 'Judy Heumann'
+description: 'Toddler Swimming Classes 12-24 months'
 ---
 
-https://youtu.be/lcDrQYAF54Y
+
 
 ===
 

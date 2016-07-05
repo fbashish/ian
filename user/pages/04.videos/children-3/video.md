@@ -1,13 +1,16 @@
 ---
-title: Children 4 Years
-author: Judy Heumann
-description: Infant Aquatics℠ Swim Lessons - 4 year olds
+title: 'Children 4 Years'
+video_url: 'https://youtu.be/5Tat5gU2kkw'
 taxonomy:
-    category: videos
-    tag: [children]
+    tag:
+        - children
+    category:
+        - videos
+author: 'Judy Heumann'
+description: 'Infant Aquatics℠ Swim Lessons - 4 year olds'
 ---
 
-https://youtu.be/5Tat5gU2kkw
+
 
 ===
 

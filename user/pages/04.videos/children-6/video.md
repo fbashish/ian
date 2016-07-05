@@ -1,13 +1,18 @@
 ---
-title: 6 Months - 5 Years
-author: Judy Heumann
-description: Infant Swimming Lesson with Infant Aquatics℠ from 6 months to 5 years.
+title: '6 Months - 5 Years'
+video_url: 'https://youtu.be/WgDxuQ293So'
 taxonomy:
-    category: videos
-    tag: [children, toddlers, infants]
+    tag:
+        - children
+        - infants
+        - toddlers
+    category:
+        - videos
+author: 'Judy Heumann'
+description: 'Infant Swimming Lesson with Infant Aquatics℠ from 6 months to 5 years.'
 ---
 
-https://youtu.be/WgDxuQ293So
+
 
 ===
 

@@ -1,13 +1,16 @@
 ---
-title: Toddlers 12-24 Months
-author: Judy Heumann
-description: Parent/Tot Swim Float Survival Class
+title: 'Toddlers 12-24 Months'
+video_url: 'https://youtu.be/lbMaaNW1FoM'
 taxonomy:
-    category: videos
-    tag: [toddlers]
+    tag:
+        - toddlers
+    category:
+        - videos
+author: 'Judy Heumann'
+description: 'Parent/Tot Swim Float Survival Class'
 ---
 
-https://youtu.be/lbMaaNW1FoM
+
 
 ===
 

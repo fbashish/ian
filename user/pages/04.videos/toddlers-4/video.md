@@ -1,13 +1,14 @@
 ---
-title: Toddlers 12-24 Months
-author: Judy Heumann
-description: Toddler Swimming School Fun
+title: 'Toddlers 12-24 Months'
+video_url: 'https://youtu.be/xZudV5QAfKU'
 taxonomy:
-    category: videos
-    tag: [toddlers]
+    tag:
+        - toddlers
+    category:
+        - videos
+author: 'Judy Heumann'
+description: 'Toddler Swimming School Fun'
 ---
-
-https://youtu.be/xZudV5QAfKU
 
 ===
 
