@@ -55,7 +55,13 @@
         <li><a href="https://www.google.com/maps/place/{{ page.header. company_name }}/@{{ page.header.latitude }}{{ page.header.longitude }}<,17z/data=!3m1!4b1!4m5!3m4!1s0x876bf98e49c23b13:0x6102c5226ef8c69f!8m2!3d40.1505123!4d-105.1185022" target="_blank">Map Link</a> ({{ page.header.latitude }}, {{ page.header.longitude }})</li>
     </ul>
 
-     <ul id="sidelinks">
+     <ul id="social-links">
+        {% for item in header.sociallinks %}
+            <li><a href="{{ item.url }}" target="_blank">{{ item.text }}</a></li>
+        {% endfor %}
+        </ul>
+
+         <ul id="side-links">
         {% for item in header.sidelinks %}
             <li><a href="{{ item.url }}" target="_blank">{{ item.text }}</a></li>
         {% endfor %}

@@ -3,6 +3,8 @@ title: 'Become An Instructor'
 menu: 'Become An Instructor'
 ---
 
+<iframe width="853" height="480" src="https://www.youtube.com/embed/N8vJsts1QFA" frameborder="0" allowfullscreen></iframe>
+
 # Become an instructor
 
 ### Join The Infant Aquatics Team!

@@ -1,8 +1,8 @@
 ---
-title: Alba McGowan
-school: Swim Kids Swim, LLC
-styles: 'sg-color-dark-gray center-title'
+title: 'Alba McGowan'
 image_align: right
+school: 'Swim Kids Swim, LLC'
+styles: 'sg-color-dark-gray center-title'
 ---
 
 "Infant Aquatics affords me independence, freedom and complete control of my own swim school with no recertification requirements and ongoing financial obligations, I have the freedom of staying current in the field of infant aquatic survival by attending conferences of my own choosing and learning from other reputable instructors, which consistently enriches my individual program.

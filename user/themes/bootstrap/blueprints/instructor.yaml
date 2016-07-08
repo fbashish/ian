@@ -75,7 +75,28 @@ form:
             #   validate:
             #     required: false
 
-            header.sidelinks:
+            header.sociallinks:
+              name: sociallinks
+              type: list
+              label: Social Links
+              fields:
+                .text:
+                  type: text
+                  label: Text
+                .url:
+                  type: text
+                  label: URL
+                .primary:
+                  type: toggle
+                  label: Primary
+                  highlight: 1
+                  default: 1
+                  options:
+                      1: 'Yes'
+                      0: 'No'
+                  validate:
+                      type: bool
+            header.sideLinks:
               name: sidelinks
               type: list
               label: Additional Links

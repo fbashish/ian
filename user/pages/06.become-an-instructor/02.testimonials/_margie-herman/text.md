@@ -1,9 +1,8 @@
 ---
-title: Margie Herman
-school:
-area: Valdosta, Georgia 
-styles: center-title
+title: 'Margie Herman'
 image_align: right
+area: 'Valdosta, Georgia'
+styles: center-title
 ---
 
 "Becoming an Infant Aquatics instructor was the best decision I ever made. The training fee was a bargain and the rewards, both personally and financially have been substantial. I receive continuing advice and support, without any ongoing financial obligations or restrictions on the way I choose to conduct my business.
