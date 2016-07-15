@@ -2845,7 +2845,23 @@
   display: none; }
 
 body {
-  background: a; }
+  background: url(../images/poolwater.jpg) top center repeat-x;
+  background-attachment: fixed;
+  margin-top: 70px;
+  color: #006cb3; }
+
+#main-content {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+17,ffffff+17,72cdf4+100 */
+  background: #ffffff;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 17%, #ffffff 17%, #72cdf4 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#72cdf4',GradientType=0 );
+  /* IE6-9 */
+  border-right: 11px solid #fefefe;
+  border-left: 11px solid #fefefe; }
 
 /* ///// Slider Styles ///// */
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
@@ -3337,5 +3353,27 @@ ol.breadcrumb {
 
 body.fixed-nav {
   padding-top: 50px; }
+
+.navbar {
+  margin-bottom: 0;
+  background: #e71939;
+  background: #e71739; }
+  .navbar .navbar-nav .dropdown-menu {
+    background: #e71739; }
+    .navbar .navbar-nav .dropdown-menu li a:hover {
+      color: #e71739; }
+  .navbar .navbar-nav li a {
+    color: #fefefe; }
+  .navbar .navbar-nav li a:hover {
+    color: red; }
+  .navbar .navbar-nav li a:active {
+    color: #fefefe; }
+
+.dropdown-menu > li > a {
+  color: #E71739; }
+
+.footer {
+  background-color: #006cb3;
+  background-color: #006bb3; }
 
 /*# sourceMappingURL=theme.css.map */

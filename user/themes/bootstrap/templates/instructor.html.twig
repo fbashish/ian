@@ -12,23 +12,25 @@
     {% endif  %}
 
 	{% block content %}
-        <div class="container">
+
+            <div id="main-content" class="container">
 
 
-		<div class="row">
-                <div class="col-sm-8 blog-main">
-					{% if config.plugins.breadcrumbs.enabled %}
-						{% include 'partials/breadcrumbs.html.twig' %}
-					{% endif %}
+    		<div class="row">
+                    <div class="col-sm-8 blog-main">
+    					{% if config.plugins.breadcrumbs.enabled %}
+    						{% include 'partials/breadcrumbs.html.twig' %}
+    					{% endif %}
 
-    			    {% include 'partials/instructor_item.html.twig' with {'instructors':page.parent, 'truncate':false, 'big_header':true} %}
-    			</div>
+        			    {% include 'partials/instructor_item.html.twig' with {'instructors':page.parent, 'truncate':false, 'big_header':true} %}
+        			</div>
 
-                <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-    				{% include 'partials/instructor_sidebar.html.twig' with {'instructors':page.parent}%}
-    			</div>
-    		</div>
-        </div>
+                    <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+        				{% include 'partials/instructor_sidebar.html.twig' with {'instructors':page.parent}%}
+        			</div>
+        		</div>
+            </div>
+
 	{% endblock %}
 
 {% endembed %}

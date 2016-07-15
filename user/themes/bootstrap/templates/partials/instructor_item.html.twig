@@ -3,7 +3,9 @@
     {% set header_image = page.header.header_image|defined(true) %}
     {% set header_image_width  = page.header.header_image_width|defined(900) %}
     {% set header_image_height = page.header.header_image_height|defined(300) %}
-    {% set header_image_file = page.header.header_image_file %}
+    {% set header_image_file = page.header.featured_img %}
+    {% set logo_image_file = page.header.logo %}
+
 
     <div class="list-blog-header">
 
@@ -19,7 +21,6 @@
             <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
         {% endif %}
 
-        
         {% if page.taxonomy.tag %}
         <span class="tags pull-right">
             {% for tag in page.taxonomy.tag %}
@@ -28,8 +29,7 @@
         </span>
         {% endif %}
         {% if big_header %}
-            {{ page.media.images|first.cropResize(900,600).html('','blog-header-image') }}
-        {% else %}
+
             {% if header_image %}
                 {% if header_image_file %}
                     {% set header_image_media = page.media.images[header_image_file] %}
@@ -38,6 +38,10 @@
                 {% endif %}
                 {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
             {% endif %}
+
+            {% else %}
+                {{ page.media.images[featured_img]|first.cropResize(900,600).html('featured_img','blog-header-image') }}
+
         {% endif %}
     </div>
 
@@ -88,6 +92,24 @@
         <p>{{ page.content }}</p>
         {% set show_prev_next = true %}
     {% endif %}
+
+
+<div class="instructor-slideshow">
+
+    {% for image in page.media.images %}
+
+            <div>{{ image }}</div>
+        
+    {% endfor %}
+
+
+
+
+</div>
+
+
+
+
 
     {% if show_prev_next %}
 

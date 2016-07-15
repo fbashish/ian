@@ -1,0 +1,31 @@
+.navbar {
+    margin-bottom: 0;
+    background: rgb(231, 25, 57);
+    background: $red;
+
+
+        .navbar-nav {
+
+            .dropdown-menu {
+                background: $red;
+
+                li a:hover {color: $red;}
+            }
+
+            li {
+
+                a {
+                    color: $white;
+                }
+
+                a:hover {color:red;}
+                a:active {color: $white;}
+
+
+
+            }
+        }
+
+}
+
+.dropdown-menu>li>a { color: #E71739}

@@ -1,0 +1,69 @@
+
+{% embed 'partials/base.html.twig' %}
+
+    {% set header_image = page.header.header_image|defined(true) %}
+    {% set header_image_width  = page.header.header_image_width|defined(1080) %}
+    {% set header_image_height = page.header.header_image_height|defined(500) %}
+    {% set header_image_file = page.header.header_image_file %}
+
+
+	
+	{% block content %}
+
+
+    <div class="container">
+
+    {% if big_header %}
+            {{ page.media.images|first.cropResize(900,600).html('','blog-header-image') }}
+        {% else %}
+            {% if header_image %}
+                {% if header_image_file %}
+                    {% set header_image_media = page.media.images[header_image_file] %}
+                {% else %}
+                    {% set header_image_media = page.media.images|first %}
+                {% endif %}
+                {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
+            {% endif %}
+        {% endif %}
+    </div>
+
+
+
+
+     
+        <div class="header">
+            <div class="container">
+               {% if page.header.link %}
+        {% else %}
+            <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+        {% endif %}
+            </div>
+        </div>
+        <div id="main-content" class="container">
+            <div class="row">
+                <div class="col-sm-8 blog-main">
+
+                     {{ page.content }}
+
+                </div>
+
+        		<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+       				{% include 'partials/page_sidebar.html.twig' with {'page':page} %}
+        		</div>
+            </div>
+        </div>
+	{% endblock %}
+
+	{% block pagination %}
+        {% if config.plugins.pagination.enabled and collection.params.pagination %}
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 text-center">
+                    {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
+                </div>
+            </div>
+        </div>
+	    {% endif %}
+	{% endblock %}
+
+{% endembed %}
